@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'SourceSans3';
-    src: url('fonts/SourceSans3.ttf') format('truetype');
+    src: url('fonts/NotoSerif.ttf') format('truetype');
 }
 
 .a_links {
@@ -11,8 +11,10 @@
 
 .main_body {
     margin: 0px;
-    color: black;
+    color: #243551;
     font-family: SourceSans3, sans-serif;
+    font-size: calc((0.3) * 1.2vw + 1rem);
+    font-weight: 300;
 }
 
 .main_page_body {
@@ -135,23 +137,42 @@
     }
 } 
 
+.main_page_corny_words {
+    font-size: calc((3) * 1.2vw + 1rem);
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-weight: 500;
+    padding-top: 9vmax; 
+    padding-bottom: 9vmax; 
+
+}
+
+.corny_words_indent {
+    padding-left: 10vw;
+}
+
 
 /* footer */
 .main_footer {
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    background-color: hsl(60deg 7.46% 86.86%);
+    padding: 4vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-right: 10%;
 }
 
 .main_footer_contact {
     font-weight: 700;
-    margin-bottom: 2vh;
+    margin-bottom: 2vw;
+}
+
+.virtual_mental_footer {
+    margin-bottom: 1vw;
+}
+
+.footer_book_now {
+    color: #243551 !important;
 }
 
 /* About page */
@@ -476,7 +497,15 @@ input[type="checkbox"]:checked + .question .plus_minus::before {
     }
 } 
 
+
 /* contact page */
+.contact_page_top_body {
+    background-color: white;
+    font-weight: 200;
+    font-size: calc((0.1) * 1.2vw + 1rem);
+}
+
+
 .side_by_side_padding {
     padding: 5vw;
     justify-content: space-between;
