@@ -62,7 +62,7 @@
     text-underline-offset: 6px;
 }
 
-/* lisa hiking section */
+/* red fire section */
 
 .main_page_main_section {
     padding-top: 12vmax; 
@@ -120,6 +120,44 @@
     color: #333333;
 }
 
+.main_page_corny_words {
+    font-size: calc((3) * 1.2vw + 1rem);
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-weight: 500;
+    padding-top: 9vmax; 
+    padding-bottom: 9vmax; 
+
+}
+
+.corny_words_indent {
+    padding-left: 10vw;
+}
+
+/* footer */
+.main_footer {
+    background-color: hsl(60deg 7.46% 86.86%);
+    padding: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main_footer_contact {
+    font-weight: 700;
+    margin-bottom: 2vw;
+}
+
+.virtual_mental_footer {
+    margin-bottom: 1vw;
+}
+
+.footer_book_now {
+    color: #243551 !important;
+}
+
 @media (max-width: 750px) {
     .cta-button {
       width: 100%;
@@ -135,45 +173,19 @@
         margin-left: 10vw;
         margin-right: 10vw;
     }
+
+    .main_page_buttonsubtittle_section {
+        margin-right: 10vw;
+    }
+
+    .corny_words_indent {
+        padding-left: 0px;
+    }
+
+    .footer_beyondboundaries {
+        margin-bottom: 5vw;
+    }
 } 
-
-.main_page_corny_words {
-    font-size: calc((3) * 1.2vw + 1rem);
-    margin-left: 10vw;
-    margin-right: 10vw;
-    font-weight: 500;
-    padding-top: 9vmax; 
-    padding-bottom: 9vmax; 
-
-}
-
-.corny_words_indent {
-    padding-left: 10vw;
-}
-
-
-/* footer */
-.main_footer {
-    background-color: hsl(60deg 7.46% 86.86%);
-    padding: 4vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.main_footer_contact {
-    font-weight: 700;
-    margin-bottom: 2vw;
-}
-
-.virtual_mental_footer {
-    margin-bottom: 1vw;
-}
-
-.footer_book_now {
-    color: #243551 !important;
-}
 
 /* About page */
 .about_page_top_body {
@@ -503,6 +515,10 @@ input[type="checkbox"]:checked + .question .plus_minus::before {
     background-color: white;
     font-weight: 200;
     font-size: calc((0.1) * 1.2vw + 1rem);
+}
+
+.header_bar_contact {
+    background-color: #e0e0db;
 }
 
 
