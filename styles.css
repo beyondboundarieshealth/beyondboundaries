@@ -503,7 +503,7 @@ input[type="checkbox"]:checked + .question .plus_minus::before {
     background-image: url('pictures/services_pic_3.jpg');
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .services_types {
         width: 100vw;
     }
