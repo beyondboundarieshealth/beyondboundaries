@@ -136,7 +136,7 @@
 
 /* footer */
 .main_footer {
-    background-color: hsl(60deg 7.46% 86.86%);
+    background-color: rgb(238, 239, 247);
     padding: 4vw;
     display: flex;
     flex-direction: row;
@@ -189,7 +189,7 @@
 
 /* About page */
 .about_page_top_body {
-    background-color:rgb(224 224 219);
+    background-color:rgb(238, 239, 247);
     font-weight: 200;
     font-size: calc((0.1) * 1.2vw + 1rem);
 }
@@ -200,28 +200,33 @@
 }
 
 .aboutGoldenPic {
-    flex: 1;
-    background-image: url('pictures/aboutGolden.jpg');
+    background-image: url('pictures/sunsetwithtreeonleftbottom.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.about_Lisa_OT_left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .about_Lisa_OT {
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin: 3vw;
     padding-bottom: 3vw;
+    background-color: rgb(238, 239, 247);
+    opacity: 0.85;
 }
 
 .about_Lisa_title_pic {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin: 2vw;
 }
 
 .about_Lisa_title {
@@ -274,25 +279,19 @@
     color: white;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .side_by_side {
         flex-direction: column;
     }
 
     .aboutGoldenPic {
         flex: unset;
-        height: 40vw;
     }
 
     .about_Lisa_title_pic {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .about_Lisa_pic {
-        order: 1;
-        margin-top: min(calc(-100px - 2vw), calc(-10vw - 2vw));
     }
 
     .about_Lisa_title {
@@ -398,7 +397,7 @@ input[type="checkbox"]:checked + .question .plus_minus::before {
 
 .services_Squamish_Pic {
     width: 40vw;
-    background-image: url('pictures/servicesSquamish.jpeg');
+    background-image: url('pictures/sunrisewithtree.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -468,9 +467,11 @@ input[type="checkbox"]:checked + .question .plus_minus::before {
     min-width: 225px;
     margin: 20px;
     padding: 20px;
-    background-color: rgb(224 224 219);
+    background-color: rgb(238, 239, 247);
     align-items: center;
     text-align: center;
+    text-decoration: none;
+    color:#243551
 }
 
 .services_types_title {
@@ -492,24 +493,22 @@ input[type="checkbox"]:checked + .question .plus_minus::before {
 }
 
 .pic_1 {
-    background-image: url('pictures/services_pic_1.jpg');
+    background-image: url('pictures/speechbubbleslightbackground.png');
 }
-
 .pic_2 {
-    background-image: url('pictures/services_pic_2.jpg');
+    background-image: url('pictures/checklistwithlightbackground.png');
 }
 
 .pic_3 {
-    background-image: url('pictures/services_pic_3.jpg');
+    background-image: url('pictures/brainwithlightbackground.png');
 }
 
 @media (max-width: 1000px) {
     .services_types {
-        width: 100vw;
+        width: 60vw;
+        height: auto; /* Adjust height to auto or specify a specific height value */
     }
-} 
-
-
+    }
 /* contact page */
 .contact_page_top_body {
     background-color: white;
@@ -518,7 +517,7 @@ input[type="checkbox"]:checked + .question .plus_minus::before {
 }
 
 .header_bar_contact {
-    background-color: #e0e0db;
+    background-color: rgb(255,255,255)
 }
 
 
@@ -532,7 +531,7 @@ input[type="checkbox"]:checked + .question .plus_minus::before {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: calc((0.4) * 1.2vw + 1rem);
+    font-size: calc((0.2) * 1.2vw + 1rem);
 }
 
 .contact_reach_out_text > div {
@@ -544,14 +543,11 @@ input[type="checkbox"]:checked + .question .plus_minus::before {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('pictures/contactPic.jpg');
-    border-radius: 15vw 16vw 0 0;
-
+    background-image: url('pictures/Clouds.jpg'); 
 }
-
 .contact_reach_out_title {
     font-weight: 500;
-    font-size: calc((3) * 1.2vw + 1rem);
+    font-size: calc((1.5) * 1.2vw + 1rem);
 }
 
 @media (max-width: 1000px) {
