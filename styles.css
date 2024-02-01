@@ -493,14 +493,14 @@ input[type="checkbox"]:checked + .question .plus_minus::before {
 }
 
 .pic_1 {
-    background-image: url('pictures/speechbubbleslightbackground.png');
+width:100%;
 }
 .pic_2 {
-    background-image: url('pictures/checklistwithlightbackground.png');
+ width:100%;
 }
 
 .pic_3 {
-    background-image: url('pictures/brainwithlightbackground.png');
+width:100%;
 }
 
 @media (max-width: 1000px) {
